@@ -1,0 +1,262 @@
+  .search-wrap{
+    width: 100%;
+    background: #fff;
+    h2{
+      margin: 0 auto;
+      height: 60px;
+      line-height: 60px;
+      overflow: hidden;
+      .search{
+        width: 635px;
+        line-height: 40px;
+        margin-top: 10px;
+        box-shadow:0px 3px 4px 0px rgba(0, 0, 0, 0.14);
+        position: relative;
+        b{
+          position: absolute;
+          left: 8px;
+          top: 10px;
+          width: 20px;
+          height: 20px;
+          background:url("../images/common/search.png") no-repeat;
+        }
+        input{
+          float: left;
+          width: 500px;
+          height: 40px;
+          padding-left: 40px;
+          line-height: 40px;
+          box-sizing: border-box;
+          border: 1px solid #ddd;
+        }
+        input::-webkit-input-placeholder {
+          color: #ccc;
+        }
+        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+          color: #ccc;
+        }
+        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+          color: #ccc;
+        }
+        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+          color: #ccc;
+        }
+        button{
+          float: left;
+          width: 128px;
+          height: 40px;
+          line-height: 40px;
+          cursor: pointer;
+          background: #FD4946;
+          color: #fff;
+          text-align: center;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .shopList{
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    .search-list{
+      background: #fff;
+      box-shadow:0px 3px 4px 0px rgba(0, 0, 0, 0.14);
+      margin-top: 20px;
+      padding: 20px;
+      .one{
+        li{
+          position: relative;
+          margin-bottom: 30px;
+          //overflow: hidden;
+          line-height: 18px;
+          border-bottom: 1px solid transparent;
+          span{
+            float: left;
+            font-size: 16px;
+            font-weight: bold;
+            color:#333;
+            margin-right: 30px;
+            b{
+              margin-left: 32px;
+              font-weight: bold;
+            }
+            i{
+              margin-left: 8px;
+              font-weight: bold;
+            }
+          }
+          .two{
+            width: 1130px;
+            b{
+              font-size: 14px;
+              height: 18px;
+              line-height: 18px;
+              margin-right: 18px;
+              padding-bottom: 5px;
+              cursor: pointer;
+              color: #333;
+              border-bottom: 1px solid transparent;
+              &.cur{
+                color: #224E8F;
+              }
+            }
+          }
+          .three {
+            margin: 16px 0 0 92px;
+            width: 1017px;
+            padding: 10px 20px;
+            background: #EDF3FD;
+            text-align: justify;
+            border: 1px solid #A6BCE2;
+            border-radius: 5px;
+            i{
+              margin-right: 20px;
+              margin-bottom: 5px;
+              float: left;
+              font-size: 12px;
+              color: #333;
+              cursor: pointer;
+              &.cur{
+                color: #224E8F;
+              }
+            }
+          }
+          .threeArea,.threeYetai{
+            display: none;
+          }
+        }
+        .search-click{
+          text-align: center;
+          font-size: 16px;
+          color: #333;
+          cursor: pointer;
+          span{
+            display: inline-block;
+            width: 9px;
+            height: 6px;
+            vertical-align: 3px;
+            background: url("../images/shopList/xia.png") no-repeat;
+            &.cur{
+              background: url("../images/shopList/shang.png") no-repeat;
+            }
+          }
+        }
+      }
+      h3{
+        background: #f7f7f7;
+        font-size: 14px;
+        padding-left: 20px;
+        position: relative;
+        .list{
+          padding: 14px 0;
+          span{
+            display: inline-block;
+            font-size: 14px;
+            color: #898989;
+            margin-right: 10px;
+            line-height: 20px;
+            position: relative;
+            &.select{
+              border: 1px solid #FD4946;
+              padding: 2px 30px 2px 10px;
+              border-radius: 3px;
+              b{
+                position: absolute;
+                right: 5px;
+                top: 7px;
+                width: 12px;
+                height: 11px;
+                cursor: pointer;
+                background:url("../images/shopList/close.png") no-repeat;
+              }
+            }
+          }
+        }
+        .clear{
+          position: absolute;
+          right: 20px;
+          top: 17px;
+          font-size: 16px;
+          color: #333;
+          b{
+            display: inline-block;
+            width: 16px;
+            height: 18px;
+            margin-right: 10px;
+            vertical-align: -2px;
+            background: url("../images/shopList/clean.png") no-repeat;
+          }
+          i{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .shop-list{
+      margin-top: 20px;
+      h4{
+        font-size: 20px;
+        color: #333;
+        height: 70px;
+        line-height: 70px;
+      }
+      .shop-msg{
+        .shop-right{
+          width: 224px;
+          padding: 0 20px 30px;
+          background: #fff;
+          h3{
+            padding-top: 24px;
+            font-size: 18px;
+            color: #333;
+          }
+          ul{
+            li{
+              cursor: pointer;
+              margin-top: 24px;
+              .img{
+                margin-bottom: 10px;
+                position: relative;
+                img{
+                  width: 184px;
+                  height: 139px;
+                }
+                p{
+                  width: 100%;
+                  height: 30px;
+                  line-height: 30px;
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  font-size: 14px;
+                  color: #fff;
+                  text-align: center;
+                  background: rgba(0,0,0,.5);
+                }
+              }
+              .name{
+                font-size: 14px;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+                color: #333;
+              }
+              .price{
+                color: #FD4946;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .page{
+      .el-pagination{
+        .el-pager li:last-child{
+          display: none;
+        }
+      }
+    }
+  }
+

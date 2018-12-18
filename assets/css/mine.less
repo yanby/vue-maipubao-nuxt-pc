@@ -1,0 +1,204 @@
+.mine{
+  .model{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    .down{
+      position: absolute;
+      width: 415px;
+      height: 348px;
+      left: 50%;
+      top: 50%;
+      margin-left: -207px;
+      margin-top: -174px;
+      background: url("../images/common/down.png") no-repeat;
+      span{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: -15px;
+        top: -15px;
+        background: url("../images/common/close.png") no-repeat;
+      }
+      p{
+        text-align: center;
+        margin: 65px 0 75px;
+        color: #fff;
+        font-size: 18px;
+      }
+      div{
+        width: 155px;
+        height: 155px;
+        margin: 0 auto;
+        background: url("../images/common/maipubao.png") no-repeat;
+      }
+    }
+  }
+  .content{
+    margin-top: 40px;
+    padding-bottom: 200px;
+    .left{
+      width: 180px;
+      height: 462px;
+      background: #fff;
+      text-align: center;
+      .user{
+        .img{
+          width: 79px;
+          height: 79px;
+          margin: 40px auto 20px;
+          img{
+            width: 79px;
+            height: 79px;
+          }
+        }
+        .tel{
+          text-align: center;
+          font-size: 14px;
+          color: #333;
+        }
+        p{
+          text-align: center;
+          color: #DEA660;
+        }
+      }
+      ul{
+        margin-top: 24px;
+        li{
+          height: 50px;
+          line-height: 50px;
+          position: relative;
+          cursor: pointer;
+          &.cur{
+            background: #F7F7F7;
+            span{
+              display: block;
+            }
+          }
+          &:hover{
+            background: #F7F7F7;
+            span{
+              display: block;
+            }
+          }
+          span{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width:2px;
+            height:50px;
+            background:rgba(236,94,92,1);
+          }
+        }
+      }
+    }
+    .right{
+      width: 995px;
+      background: #fff;
+      padding: 30px 28px;
+      .yesMembers{
+        .date{
+          width: 945px;
+          height: 110px;
+          background: #F7F7F7;
+          text-align: center;
+          p{
+            padding: 25px 0 16px;
+          }
+          h3{
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+            span{
+              color: #EC5E5C;
+            }
+          }
+        }
+        .quanyi{
+          font-size: 18px;
+          color: #333;
+          position: relative;
+          margin: 25px 0 34px;
+          padding-left: 10px;
+          h4{
+            margin-bottom: 34px;
+            span{
+              position: absolute;
+              left: 0;
+              top: 0;
+              width:2px;
+              height:18px;
+              margin-top: 2px;
+              background:rgba(207,169,114,1);
+            }
+          }
+        }
+      }
+      .myAttention{
+        margin-bottom: 40px;
+        .shop-left{
+          width: 935px;
+          .price{
+            padding-top: 78px;
+          }
+
+        }
+        h3{
+          font-size: 18px;
+          color: #333;
+        }
+        h4{
+          width: 935px;
+          height: 40px;
+          line-height: 40px;
+          background: #F7F8FA;
+          margin-top: 24px;
+          span{
+            width: 120px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            color: #888888;
+            &.cur{
+              color: #333333;
+              background: #DDDDDD;
+            }
+          }
+        }
+      }
+      .noMembers{
+        padding-bottom: 130px;
+        .img{
+          width: 261px;
+          height: 192px;
+          margin: 30px auto 0;
+          background: url("../images/common/no.png") no-repeat;
+        }
+        p{
+          text-align: center;
+          color: #666;
+          margin-bottom: 10px;
+        }
+        .btn{
+          width: 120px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: #fff;
+          background: #EC5E5C;
+          margin: 24px auto 0;
+          cursor: pointer;
+        }
+      }
+    }
+    .page{
+      width: 935px;
+    }
+  }
+}
